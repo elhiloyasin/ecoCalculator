@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/yassinelhilo/Desktop/sendc/stringCalculator/stringCalculator.csproj": {}
+  },
+  "projects": {
+    "/Users/yassinelhilo/Desktop/sendc/stringCalculator/stringCalculator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/yassinelhilo/Desktop/sendc/stringCalculator/stringCalculator.csproj",
+        "projectName": "stringCalculator",
+        "projectPath": "/Users/yassinelhilo/Desktop/sendc/stringCalculator/stringCalculator.csproj",
+        "packagesPath": "/Users/yassinelhilo/.nuget/packages/",
+        "outputPath": "/Users/yassinelhilo/Desktop/sendc/stringCalculator/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/yassinelhilo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.0.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
+            "Nunit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
